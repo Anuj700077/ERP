@@ -1,0 +1,12 @@
+.boxes{
+    /* height: 150px;
+    background-color: blueviolet;
+    margin: 5px;
+    padding: 2px; */
+}
+.boxcontent{
+    margin: 5px 0px 5px 0px;
+    width: 100%;
+    background-color: brown;
+    height:150px;
+}
