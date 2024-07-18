@@ -1,24 +1,39 @@
-/* .boxes{
-    /* height: 150px;
-    background-color: blueviolet;
-    margin: 5px;
-    padding: 2px; */
-}
-/* .boxcontent{
-    margin: 5px 0px 5px 0px;
-    width: 100%;
-    background-color: brown;
-    height:150px;
-}  */
-.container{
-    border: 2px solid black;
-    align-items: center;
-    justify-content: center;
 
+
+.boxcontent{
+    margin:5px 0px 5px 0px;
+    width:100%;
+    height: auto;
+    /*background-color: #a91818;*/
 }
-.table{
-    border: 2px solid black;
-    align-items: center;
-    justify-content: center;
+.logos{
+
+    width:150px;
+    height: 150px;
+}
+.product-img{
+    display: block;
+    margin: auto;
+}
+.product-title{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.product-des{
+    font-size: 0.8rem;
+    
+}
+.product-mrp{
+text-decoration: line-through;
+font-size:0.9rem
+}
+.product-dis{
+    font-size:0.8rem;
+    color:#08a500;
+}
+.product-price{
+    font-size:1rem;
+    font-weight: 900;
+    line-height: normal;
 
 }
