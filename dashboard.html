@@ -29,8 +29,8 @@
                       <h1 style="background-color: aqua;" class="offcanvas-title">Welcome to our Pharmacy</h1>
                       <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
                     </div>
-                    <div class="offcanvas-body">
-                      <ul>
+                
+                      <!-- <ul> 
                         <li>
                             <a href="" data-bs-toggle="collapse" data-bs-target="#demo1">Home</a>
                             <div id="demo1" class="collapse">
@@ -42,16 +42,53 @@
                                 I am about us button
                               </div>
                             </li>
-                             <li> <a  href="" data-bs-toggle="collapse" data-bs-target="#demo3"></a>Contact</li>
-                      </ul>
-                     
+                             <li> <a  href="" data-bs-toggle="collapse" data-bs-target="#demo3">Contact</a>
+                                <div id="demo2" class="collapse">
+                                    I am contact button
+                                  </div>
+                                </li>
+                      </ul> -->
+                     <div id="accordian">
+                        <div class="card">
+                            <div class="card-header bg-primary">
+                                <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+                                   Home
+                                </a>
+                            </div>
+                            <div id="collapseOne" class="collapse" data-bs-parent="#accordian">
+                                <div class="card-body bg-success ">Lorem jdhbed eiunw knw</div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header bg-primary">
+                                <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+                                   About us
+                                </a>
+                            </div>
+                            <div id="collapseTwo" class="collapse" data-bs-parent="#accordian">
+                                <div class="card-body bg-success">Lorem jmdskopn w dw wddj</div>
+                            </div>
+                        </div>
+                        <div id="accordian">
+                            <div class="card">
+                                <div class="card-header bg-primary">
+                                    <a class="btn" data-bs-toggle="collapse" href="#collapseThree">
+                                    Contact
+                                    </a>
+                                </div>
+                                <div id="collapseThree" class="collapse" data-bs-parent="#accordian">
+                                    <div class="card-body bg-success ">984 3949u4n c9384r93</div>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
                      
                       <div id="demo3" class="collapse">
                         I am a Contact button
                       </div>
                     </div>
                   </div>
-                  
+                  <div class="offcanvas-body">
                   <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
                  Open sidebar
                   </button>
